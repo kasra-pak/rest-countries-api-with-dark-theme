@@ -7,7 +7,7 @@ import Detail from "./pages/Detail";
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

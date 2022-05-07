@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Country(props) {
   return (
-    <Link to={`/detail/${props.name}`} className="country" >
+    <Link to={`/detail/${props.name.toLowerCase()}`} className="country" >
       <img
         className='country__flag'
         src={props.flag}
