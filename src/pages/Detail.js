@@ -53,7 +53,7 @@ export default function Detail() {
       .finally(() => setLoading(false))
       
 
-  }, [])
+  }, [fetchByNameURL])
 
   if (loading) {
     return (
