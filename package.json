@@ -2,7 +2,7 @@
   "name": "countries",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kasra-pak.github.io/rest-countries-with-dark-theme/",
+  "homepage": "https://kasra-pak.github.io/rest-countries-api-with-dark-theme/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
